@@ -12,6 +12,6 @@ public class APIUtils {
     public static CarroAPI getAPIService() {
         return RetrofitClient.getClient(BASE_URL).create(CarroAPI.class);
     }
- 
+
 
 }
